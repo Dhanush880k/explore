@@ -18,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@e8944e80fb94b20106697132f8c20c665fab29e9 # v1.325.0
         with:
-          bundler-cache: false
+          bundler-cache: 
 
       - name: Install dependencies
         run: bundle install
